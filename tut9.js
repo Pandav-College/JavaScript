@@ -61,3 +61,47 @@ alert(`Sum of first `+num+` natural number is `+sum);
 //     console.log(`Family Members are `+obj[priti]);
     
 // }
+
+//6.
+const data = {
+  ashwini : 56,
+  manaswi : 67,
+  priti : 78,
+  pragati : 89,
+  boys : {
+      sagar : 78,
+      sumeet : 79,
+      ankush : 80,
+      rahul : 81
+  }
+}
+
+// data['Kavita'] = 90;
+// data.boys[`Shrikant`] = 56;
+// console.log(data.boys.sagar);
+// //console.log(data);
+
+//7.
+//For of Loop
+// for (const iterator of `Shikant`) // for of loop iterates only array data , not object
+// {
+//   console.log(iterator);
+// }
+
+//8.
+// while loop
+
+// let count = 0; // initialisation of counter
+// while (count < 10) {
+//   console.log(count);
+//   count++;
+// }
+
+//9.
+//do...while loop
+let i =10; // initialisation of counter
+do {
+  console.log(i);
+  i++; //11
+} while (i < 20);
+console.log(i);
