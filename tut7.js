@@ -4,11 +4,15 @@
 // console.log(`First Line`);
 // console.log(`Second Line`);
 // console.log(`Third Line`);
+
+//1.
 // if (4 > 5 && 4 == 4) {
 //     console.log(`Fourth Line`);
 // }
 // let dominos = false; // open
 // let pizzaHut = false;
+
+//2.
 // if(dominos == true){
 //     console.log(`I want to eat Pizza at Dominos`);
 // }else if(pizzaHut == true){
@@ -18,6 +22,7 @@
 // }
 // console.log(`Sabjiya Kharidina hai`);
 
+//4.
 // let age = prompt(`Hey whats your age???`);
 // age = Number.parseFloat(age);
 // // age = Boolean.parseInt(age);
@@ -25,7 +30,7 @@
 
 // let fName = prompt(`Whats your name???`);
 
-//Switch Case Statement
+//5. Switch Case Statement
 let age = prompt(`Enter your age`);
 age = Number.parseInt(age);
 
@@ -54,7 +59,7 @@ age = Number.parseInt(age);
 }
 console.log(`Done`);
 */
-//Ternary Operator
+//6. Ternary Operator
 //(condition) ? `true` : `false`;
 
 console.log((age>=18) ? `You can Drive` : `You cant Drive`);

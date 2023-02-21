@@ -1,4 +1,4 @@
-//Logical Operator
+//1. Logical Operator
 // &&- ambersand || - or !-not negation
 let x = 5;
 let y = 6;

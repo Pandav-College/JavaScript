@@ -9,7 +9,7 @@ let num2 = 55;
 // let sum = num1 + num2;
 // let mul = num1 * num2;
 
-//Arithmetic Operations
+// 1. Arithmetic Operations
 // console.log(`The Value is `+(num1+num2));
 // console.log(`The Value is `+(num1-num2));
 // console.log(`The Value is `+(num1*num2));
@@ -31,7 +31,7 @@ let num2 = 55;
 //                             //print - 55 memory- 55
 // console.log(num2);
 
-//Assignment Operator
+//2 .Assignment Operator
 // x+=y --- x = x+y, x-=y --- x = x-y
 /*let assign = 34;
 assign+=5; //assign = assign + 5;
@@ -47,7 +47,7 @@ assign/=5; //assign = assign / 5;
 console.log(`The Value is `+assign);//40.8
 */
 
-//Comparision Operator
+//3. Comparision Operator
 let val1 = 55;
 let val2 = 56;
 console.log(`The value is `+ (val1 === val2));//true

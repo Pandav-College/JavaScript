@@ -32,6 +32,7 @@ let student = {
 }
 console.log(typeof(student));
 console.table(student);
+//Another way to call key from Object
 // console.log(student.priti);
 // console.log(student.Manaswi);
 // console.log(student.Kavita);
