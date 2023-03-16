@@ -10,7 +10,7 @@ console.log(`The Name is `+ fname.toUpperCase());
 console.log(`The name is `+ fname.toLowerCase());
 console.log(`The Slice value is `+ fname.slice(3,6)); //it does not incldude last index given by developer
 console.log(`The new Slice value is ` + fname.slice(4));
-console.log(`Full Name ` + fname.concat(lname + mname));
+console.log(`Full Name ` + fname.concat(lname));
 console.log(`Replace  String ` + fname.replace(`Rao`,`Pant`));
 
 // console.log(`Trim String is `+ fname.trim());
@@ -27,3 +27,15 @@ console.log(`Name Replace All `+ fname.replaceAll(fname,anotherName));
 //     console.log(iterator);
 // }
 console.log(`Character `+ anotherName.charAt(3));
+
+//What will be the output and how --- msg in
+var a = 10;
+{
+    var a = -10;
+}
+let b = a;
+{
+    let b = -20;
+}
+
+console.log(b)
