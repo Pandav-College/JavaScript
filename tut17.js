@@ -1,3 +1,4 @@
+`use strict`
 //Problem Statement 1
 // let arr = [1,2,3,4,5,56,78];
 // let a = prompt(`Enter Any Number`);

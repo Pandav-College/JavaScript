@@ -1,0 +1,44 @@
+html , body {
+    background: rgb(157, 205, 233);
+}
+ .img {
+    display: inline-block;
+    border-radius: 20%;
+    margin-top: 80px;
+  }
+
+  .home {
+    background-color: #503679; /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20%;
+  }
+
+  .about {
+    background-color: #1fda3e; /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 20%;
+  }
+
+  .services {
+    background-color: #db8a2d; /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20%;
+  }
+
+ 
