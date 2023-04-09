@@ -44,5 +44,45 @@
 //Problem 5
 
 //let color = prompt(`Enter page Background Color`);
-let bgColor = Math.random(23,45,56) + 1;
-document.body.style.background = bgColor;
+// let bgColor = Math.random(23,45,56) + 1;
+// document.body.style.background = bgColor;
+
+//Homework change backgroun randomly
+
+// let colorInput = Math.floor(Math.random() *7);
+
+
+// let color = [`Red`,`Blue`,`Green`,`Cyan`,`Purple`,`Yellow`,`Magenta`][colorInput];
+// // console.log(color);
+// setInterval(changeColor=()=>{
+//     document.body.style.background = color;
+// },2);
+
+
+//document.body.style.background = color;
+let r,g,b;
+let special;
+let char = `abcdefg`;
+let num = `1234567890`;
+let i = 0;
+while(i<10){
+    r = char[Math.floor(Math.random()* char.length)];
+    g = num[Math.floor(Math.random()* num.length)];
+    b = char[Math.floor(Math.random()* char.length)];
+    special = `#`;
+    
+    i++;
+}
+
+const greet = () => {document.body.style.background = special+r+g+b;}
+
+setInterval(greet, 3000);
+
+//how to apply setInterval method?
+
+//how to change webpage background color randomly?
+
+
+
+
+
